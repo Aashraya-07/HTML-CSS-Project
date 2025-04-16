@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KunKaar?</title>
+    <style>
+       
+        
+        .{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+        
+        header {
+            padding: 16px 32px;
+            text-align: left;
+        }
+        
+        .logo {
+            height: 100px;
+            display: inline-block;
+        }
+        
+        .logo-text {
+            font-family: 'Glock Grotesk', Arial, sans-serif;
+            font-size: 100px;
+            font-weight: bold;
+            line-height: 1;
+            display: inline-block;
+        }
+        
+        .kun {
+            color: #FF0000;
+        }
+        
+        .kaar {
+            color: #0000FF;
+        }
+        
+        .aqi-iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 16px;
+        }
+        
+        .line {
+            border-top: 1px solid white;
+            margin: 8px 0;
+        }
+        
+        .head {
+            height: 480px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #333;
+            padding: 0 32px;
+            background-color: #f8f8f8;
+        }
+        
+        .head h1 {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        .head p {
+            font-size: 24px;
+            max-width: 800px;
+        }
+        
+        .featured {
+            padding: 64px 32px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .featured h2 {
+            text-align: center;
+            margin-bottom: 48px;
+            color: #003366;
+            font-size: 40px;
+        }
+        
+        .vehicles {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+        }
+        
+        .vehicle-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .vehicle-card:hover {
+            transform: translateY(5px);
+        }
+        
+        .vehicle-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .vehicle-info {
+            padding: 24px;
+        }
+        
+        .vehicle-info h3 {
+            color: #003366;
+            margin-bottom: 8px;
+        }
+        
+        .vehicle-info p {
+            margin-bottom: 16px;
+            color: #666;
+        }
+        
+        .button {
+            display: flex;
+            background-color: red;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .button:hover {
+            background-color: #cc0000;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="KunKaar Logo" class="logo">
+        <div class="logo-text">
+            <span class="kun">Kun</span><span class="kaar">Kaar?</span>
+        </div>
+        <div class="line"></div>
+       
+    </header>
+    
+    <div class="line" style="border-top: 1px solid #333; margin: 16px 0;"></div>
+    
+    <section class="head">
+        <h1>Leading Nepal's Electric Revolution</h1>
+        <p>Drive Smart, Drive Electric - Accelerating towards Sustainable Journey</p>
+        <p>Promoting EV's in Nepal</p>
+    </section>
+
+    <div class="line" style="border-top: 1px solid #333; margin: 16px 0;"></div>
+    
+    <section class="featured">
+        <h2>Featured Vehicles</h2>
+        <div class="vehicles">
+            <div class="vehicle-card">
+                <img src="BYD-Atto-3pic.png" alt="BYD Atto 3">
+                <div class="vehicle-info">
+                    <h3>BYD Atto 3</h3>
+                    
+<a href="BYDatto3.html" class="button" target="_blank">View Details</a>
+                </div>
+            </div>
+            
+            <div class="vehicle-card">
+                <img src="CretaEV-exterior.png" alt="Hyundai Creta EV">
+                <div class="vehicle-info">
+                    <h3>Hyundai Creta EV</h3>
+                    
+<a href="CretaEV.html" class="button" target="_blank">View Details</a>
+                </div>
+            </div>
+            
+            <div class="vehicle-card">
+                <img src="Deepal-S7exterior.jpg" alt="Deepal S07">
+                <div class="vehicle-info">
+                    <h3>Deepal S07</h3>
+                   
+<a href="DeepalS07.html" class="button" target="_blank">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    
+    <footer>
+        <p><b>Disclaimer</b></p>
+        <p>"This is just a HTML&CSS project and does not represent any real company or product."</p>
+        <p>Designed and Created by Aashraya Badal</p>
+        <p>Contact at aashrayabadal@gmail.com</p>
+    </footer>
+</body>
+</html>
